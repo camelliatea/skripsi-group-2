@@ -1,6 +1,7 @@
-# SKRIPSI PAPER
+<img width="1332" height="168" alt="image" src="https://github.com/user-attachments/assets/72b6ccca-021a-4451-ad12-05804b2773fd" /># SKRIPSI PAPER
 
 ## Repository Structure 
+```
 skripsi-group-2/
 ├── dataset/
 │   ├── final dataset internal
@@ -18,6 +19,7 @@ skripsi-group-2/
 │   ├── preprocessing data external
 │   ├── svm modeling
 └── README.md
+```
 
 ## Trained Models
 
