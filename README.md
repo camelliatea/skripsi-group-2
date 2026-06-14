@@ -4,35 +4,35 @@
 skripsi-group-2/
 
 ├── dataset/
-│ 
+
 │   ├── final dataset internal
-│   
+
 │   ├── final dataset external
-│
+
 ├── model/
-│
+
 │   ├── indobert
-│
+
 │   ├── svm
-│
+
 ├── notebook/
-│
+
 │   ├── EDA dataset internal
-│
+
 │   ├── EDA dataset external
-│
+
 │   ├── indobert modeling
-│
+
 │   ├── Kappa Test
-│
+
 │   ├── McNemar Test
-│
+
 │   ├── preprocessing data internal
-│
+
 │   ├── preprocessing data external
-│
+
 │   ├── svm modeling
-│
+
 └── README.md
 
 ## Trained Models
