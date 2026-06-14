@@ -47,9 +47,8 @@ The inference implementation can be found in the **Inferensi Model** section of
 2. Upload the external dataset to the Colab environment.
    - **SVM**: upload `svm_linearsvc_data_2_2.pkl`
    - **IndoBERT**: upload the entire `indobert_data_2_2/` folder
-3. Update the model path variable in the **Inferensi Model** section:
-   - **SVM**: update `MODEL_PATH` to the uploaded `.pkl` file path
-   - **IndoBERT**: update `BUNDLE_PATH` to the uploaded folder path
+3. Update `BUNDLE_PATH` in the **Inferensi Model** section to match the uploaded 
+   model path.
 4. Update the dataset path variable to match the uploaded dataset location.
 5. Run only the cells under **Inferensi Model** section sequentially.
 
