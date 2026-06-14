@@ -22,28 +22,36 @@ skripsi-group-2/
 ```
 
 ## Trained Models
+The repository provides trained models in the following formats:
 
-The repository provides trained models in `.pkl` format:
+- `model/svm_linearsvc_data_2_2.pkl` — SVM model saved as a single `.pkl` file
+- `model/indobert_data_2_2/` — IndoBERT model saved as a folder containing model 
+  tensors, tokenizer files, and `le_bundle.pkl` for label encoding
 
-- model/svm_linearsvc_data_2_2.pkl
-- model/indobert_data_2_2/le_bundle.pkl
+These files represent the final models used in the study.
 
-These files represent the final models used in the study. 
-
-The inference implementation can be found in the **Inferensi Model** section of `indobert_modeling.ipynb` and `svm_modeling.ipynb`, which demonstrates how the trained models are loaded and used to generate predictions on the external evaluation dataset.
+The inference implementation can be found in the **Inferensi Model** section of 
+`indobert_modeling.ipynb` and `svm_modeling.ipynb`.
 
 ## How to Run
 
 ### Requirements
 - Google Colab
-- Trained model file (`.pkl`)
+- For SVM: trained model file (`svm_linearsvc_data_2_2.pkl`)
+- For IndoBERT: trained model folder (`indobert_data_2_2/`) containing model 
+  tensors, tokenizer, and label encoder
 - External test dataset
 
 ### Steps
-1. Open `indobert_modeling.ipynb` or `svm_modeling.ipynb`.
-2. Upload the trained model and external dataset.
-3. Update `BUNDLE_PATH` and dataset path variables in **Inferensi Model** section.
-4. Run the cells under **Inferensi Model** section only.
+1. Open `indobert_modeling.ipynb` or `svm_modeling.ipynb` in Google Colab.
+2. Upload the external dataset to the Colab environment.
+   - **SVM**: upload `svm_linearsvc_data_2_2.pkl`
+   - **IndoBERT**: upload the entire `indobert_data_2_2/` folder
+3. Update the model path variable in the **Inferensi Model** section:
+   - **SVM**: update `MODEL_PATH` to the uploaded `.pkl` file path
+   - **IndoBERT**: update `BUNDLE_PATH` to the uploaded folder path
+4. Update the dataset path variable to match the uploaded dataset location.
+5. Run only the cells under **Inferensi Model** section sequentially.
 
 ## Author
 Elita Camellia
