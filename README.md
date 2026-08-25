@@ -51,10 +51,3 @@ The inference implementation can be found in the **Inferensi Model** section of
    model path.
 4. Update the dataset path variable to match the uploaded dataset location.
 5. Run only the cells under **Inferensi Model** section sequentially.
-
-## Author
-Elita Camellia
-
-Dhiya Zhafirah
-
-Kanisa Anjani Santoso
